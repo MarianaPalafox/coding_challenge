@@ -9,7 +9,8 @@ The objective is to generate an output with the following fields:
 - calculations: two-dimensional array with the average of each range.
 
 Example:
-- Input "[{\"id\":1,\"amount\":10},{\"id\":2,\"amount\":32},{\"id\":3,\"amount\":55},{\"id\":4,\"amount\":30},{\"id\":5,\"amount\":32},{\"id\":6,\"amount\":32}]"
+- Input 
+"[{\"id\":1,\"amount\":10},{\"id\":2,\"amount\":32},{\"id\":3,\"amount\":55},{\"id\":4,\"amount\":30},{\"id\":5,\"amount\":32},{\"id\":6,\"amount\":32}]"
 - Output
 ```sh
 {"ranges":{"10-19":{"average":10,"ids":[1]},"30-39":{"average":32,"ids":[2,4,5,6]},"50-59":{"average":55,"ids":[3]}},"top":[3],"calculations":[]}
