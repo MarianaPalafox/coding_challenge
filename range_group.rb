@@ -1,14 +1,3 @@
-# The input consists of an array of objects, which have different ids and amounts.
-
-# The objective is to generate an output with the following fields:
-
-# ranges: objects with the key of the string of the corresponding range from 10 to 10 (0-9, 10-19 etc.) 
-# and the value with the average (average of the values on the range rounded up) and the array of ids that correspond to that range
-
-# top: array of ids that correspond to the ids with the largest amount (not range)
-
-# calculations: two-dimensional array with the average of each range.
-
 require 'json'
 
 #x Integer
